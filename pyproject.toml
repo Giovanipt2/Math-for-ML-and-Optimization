@@ -7,7 +7,11 @@ authors = [
     { name = "Giovani Mambrim Leme", email = "giovanimambrimleme.@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+]
 
 [project.scripts]
 math-for-ml-and-optimization = "math_for_ml_and_optimization:main"
